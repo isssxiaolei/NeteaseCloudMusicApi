@@ -12,4 +12,10 @@
       "dest": "/"
     }
   ]
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://163music-api-one.vercel.app/:match*"
+    }
+  ]
 }
